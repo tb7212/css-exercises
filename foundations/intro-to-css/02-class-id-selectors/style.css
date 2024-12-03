@@ -1,0 +1,22 @@
+
+
+.odd{
+    background-color: lightcoral;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+
+}
+
+#bigboy{
+    color: blue;
+    font-size: 36px;
+}
+
+#limerick{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cool{
+    font-size: 24px;
+}
