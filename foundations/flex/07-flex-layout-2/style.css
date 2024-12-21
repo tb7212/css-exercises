@@ -10,12 +10,11 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
-  font-weight: 900;
-  font-size: 32px;
-  padding-left: 16px;
+  font-size: 35px;
+  font-weight: bolder;
   display: flex;
   align-items: center;
-  
+  padding-left: 16px;
 }
 
 .footer {
@@ -27,50 +26,48 @@ body {
   justify-content: center;
 }
 
-.middle{
-  display: flex;
-}
-
-.sidebar {
-  width: 300px;
-  background: royalblue;
-  box-sizing: border-box;
-  font-weight: 700;
-  font-size: 24px;
+.content{
   display: flex;
   flex: 1;
   
 }
 
-.cards{
-  padding: 48px;
-  display: flex;
-  flex-wrap: wrap;
-  flex: 3;
-  gap: 16px;
+.sidebar {
+  width: 400px;
+  background: royalblue;
+  box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  padding: 16px;
-  padding-bottom: 100px;
-  max-width: 225px;
-  
+  max-width: 200px;
+  padding: 32px;
 }
 
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 2em;
+}
 
 ul{
   display: flex;
   flex-direction: column;
   list-style: none;
-  padding:3px;
-  gap: 16px;
-
+  margin: 16px;
+  padding: 0px;
+  gap: 2em;
+  
 }
 
 a{
   text-decoration: none;
-  color: #eee;
+  color: azure;
+  font-size: 24px;
 }
+
+
